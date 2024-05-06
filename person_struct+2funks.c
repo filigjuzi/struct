@@ -108,7 +108,7 @@ int main(){
 
     shkronja1e_emrit(person, shk);
     struct person max_mbiemri= mbiemri_me_i_gjate(person);
-
+//Thirret funksion qe sjell printimin e te dhenave te personit me mbiemer me te gjate.
     for(i=0; i<MAX_PERSONA; i++){
         printoDhena(person[i]);
     }
