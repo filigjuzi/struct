@@ -36,7 +36,7 @@ int main ()
         printf("g - Gjej numrin e artikujve me gjendje te ndryshme nga 0\n");
         printf("f - Artikull me kod numer njeshifror\n");
         printf("Fut kodin e veprimit: ");
-
+//Printo nje menu per perdoruesin
 
         scanf(" %c", &kodi);
         while (getchar() != '\n') /* kalon deri te fundi i rreshtit */
@@ -161,7 +161,7 @@ int i;
 struct artikull artikull_njeshifror;
 for (i = 0; i < nr_artikull; i++){
         if (inventari[i].numri>=0 && inventari[i].numri<=9 ){
-            printf("\nArtikulli ka kod me vetëm nje numer dhe emri i tij eshte:\n");
+            printf("\nArtikulli ka kod me vetÃ«m nje numer dhe emri i tij eshte:\n");
             printf("%7d %25s %25d\n", inventari[i].numri, inventari[i].emri, inventari[i].gjendja);
             artikull_njeshifror = inventari[i];
         }
